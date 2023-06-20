@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav-bar
+{
+    display: flex;
+background-color: black;
+height: 70px;
+width: 100%;   
+}
+.nav-bar img
+{
+margin-left:100px ;
+margin-top: 10px;
+}
+.nav-bar ul
+{
+	flex:1;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 50px;
+}
+.nav-bar Ul li
+{
+    color:rgb(189, 189, 189);
+    list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-bar button
+{
+margin-right: 100px;
+margin-top: 20px;
+width: 180px;
+height: 30px;
+border: solid 1px blue;
+background: none;
+color: white;
+border-radius: 5px;
+}
+.body {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+}
+.med {
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.med button
+{
+    font-size: 15px;
+    border: solid 1px rgb(244, 67, 54);
+    background: rgb(244, 67, 54);
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+}
+.med2 {
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-box
+{   
+    margin-top:-5px;
+    width: 100%;
+    height:600px;
+    background-color: rgb(242, 242, 242);
+}
+.para
+{
+    margin-top:10px;
+}
+.par
+{
+    font-size: 20px;
+}
+.par1
+{
+    font-size: 15px;
+}
+.med3 {
+    position: absolute;
+    top:185%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Grid-photo ul li
+{
+list-style: none;
+padding: 0;
+margin: 10px;
+position: relative;
+}
+.Grid-photo
+{
+position: relative;
+margin:30px;
+padding:10px;
+width: auto;
+}
+.Grid-photo ul
+{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+grid-auto-flow: dense;
+grid-gap: 2px;
+justify-content: center;
+margin:0 auto;
+padding: 0;
+}
+.Grid-photo ul li:nth-child(1)
+{
+grid-row: span 2;
+grid-column:span 4;
+}
+.Grid-photo ul li:nth-child(2)
+{
+grid-row: span 1;
+grid-column:span 7;
+}
+.Grid-photo ul li:nth-child(3)
+{
+grid-row: span 1;
+grid-column:span 4;
+}
+.Grid-photo ul li:nth-child(4)
+{
+grid-row: span 2;
+grid-column:span 3;
+}
+.Grid-photo ul li:nth-child(5)
+{
+grid-row: span 1;
+grid-column:span 3;
+}
+.Grid-photo ul li:nth-child(6)
+{
+grid-row: span 2;
+grid-column:span 5;
+}
+.Grid-photo ul li:nth-child(7)
+{
+grid-row: span 1;
+grid-column:span 3;
+}
+.Grid-photo ul li:nth-child(8)
+{
+grid-row: span 1;
+grid-column:span 3;
+}
+.Grid-photo ul img
+{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.med4
+{
+position: absolute;
+top:422%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.banner
+{
+margin-top: 200px;
+}
+.banner img
+{
+width: 100%;
+height: 400px;
+}
+.med5 {
+    position: absolute;
+    top:460%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.jo
+{
+position: absolute;
+top: 475%;
+left: 50%;
+color: rgb(248, 249, 250);
+transform: translate(-50%,-50%);
+text-align: center;
+font-size: 25px;
+}
+.joke
+{
+position: absolute;
+top: 490%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 25px;
+color: skyblue;
+}
+.box
+{
+display: flex;
+justify-content:space-evenly;
+width: 100%;
+height:550px;
+}
+.under
+{object-fit: cover;
+width: 20%;
+height: 60%;
+box-shadow: 10px 10px 10px;
+}
+.under img
+{
+width: 100%;
+}
+.under p{
+text-align: left;
+margin:5px;
+}
+.under h6
+{
+margin-top: 40px;
+margin-right: 20px;
+text-align: right;
+}
+.med6 {
+    position: absolute;
+    top:585%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.med7 {
+    position: absolute;
+    top:600%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact
+{
+width: 100%;
+height: 400px;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 40%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=message] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    height: 150px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+input[type=button] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
