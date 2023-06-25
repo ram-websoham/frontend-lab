@@ -5,23 +5,34 @@
 body {
   background: #fff;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 header {
   background-color: #181b1e;
 }
 .container {
-  width: 80%;
+  width: 1170px;
   display: flex;
   justify-content: space-between;
   margin: auto;
+  text-transform: uppercase;
+
+}
+.logo{
+	float: left;
+	margin-top: 0.8em;
 }
 nav > ul {
   display: flex;
+  margin-left: 350px;
+  
 }
 nav > ul > li {
   list-style: none;
   padding: 0 1.3rem;
   display: flex;
+
 }
 nav > ul > li > a {
   text-decoration: none;
@@ -30,21 +41,33 @@ nav > ul > li > a {
   margin: auto;
   color: #bdbdbd;
   font-size: 1.1em;
+  
 }
 .home {
+  padding-bottom: 0.8em;
   border-bottom: 7px solid rgba(255, 0, 0, 0.877);
 }
 nav > ul > li > a:hover {
   border-bottom: 7px solid red;
 }
 .btn {
-  padding: 1.3rem 0;
+  /* padding: 1.3rem 0; */
+  margin: auto;
+
 }
 .btn button {
   /* height: 30px; */
   border-radius: 4px;
   padding: 0.4em 1em;
+  margin: 0.9em;
   font-size: 1em;
+  text-transform: uppercase;
+  background-color: #181b1e;
+  color: #fff;
+  border: 1px solid #00bad2;
+  float: right;
+
+
 }
 .btn button:hover {
   background-color: #00bad2;
@@ -54,19 +77,19 @@ nav > ul > li > a:hover {
   min-height: 530px;
   color: white;
   background-size: cover;
-  /* width: 100vw;
-   height: 100vh; */
   display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  /* justify-self: center; */
+  /* align-items: center; */
+  
+  
 }
 .banner_item {
   margin: auto;
-  margin-top: 100px;
   width:63%;
   font-family: roboto sans-serif;
-  font-size: 25px;
+  font-size: 3em;
+  font-weight: 50px;
+  line-height: 1.2em;
 }
 
 a.down {
@@ -338,24 +361,25 @@ section {
   
 }
 ul .color_btn{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .color_btn li{
-  list-style: none;
+  /* list-style: none; */
+  display: flex;
   background-color: yellow;
   width: 10px;
   height: 5px;
 
 }
-color_btn a{
-  text-indent: -9999px;
-	display: block;
+.color_btn a{
+  /* text-indent: -9999px; */
+	/* display: flex;
 	width: 30px;
 	height: 5px;
 	margin: 5px 6px;
-	background:#171918 ;
+	background:#171918 ; */
 }
 
 /* blog */
