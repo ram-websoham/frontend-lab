@@ -20,7 +20,7 @@ header {
   text-transform: uppercase;
 }
 .logo{
-
+  margin: 8px 0;
 }
 nav{
   display: flex;
@@ -101,27 +101,36 @@ nav > ul > li > a {
 }
 .banner_item {
   margin: auto;
-  width:63%;
-  font-family: roboto sans-serif;
-  font-size: 3em;
-  font-weight: 50px;
+  font-family: inherit;
+  text-align: center;
+}
+.title{
+  font-size: 3.9em;
+  font-weight: 100;
   line-height: 1.2em;
+  padding-bottom: 40px ;
 }
 
-a.down {
+.down {
+  margin: auto;
   text-decoration: none;
   color: #fff;
   background: #f44336;
-  padding: 5px;
-  margin-top: 50px;
+  padding: 0.1em 0.6em;
+  font-size: 1.2em;
   border-radius: 6px;
+  font-size: large;
+  border: none;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 25px auto;
-  width: 200px;
+
 }
-a.down:hover {
+.down > img{
+  width: 35px;
+  height: 38px;
+  margin-right: 5px;
+}
+.down:hover {
   background: #9c2820;
 }
 
@@ -150,6 +159,7 @@ h3 {
   line-height: 1.5em;
   padding: 27px;
   /* width: 800px; */
+  font-family: 'Roboto', sans-serif;
 }
 .item_sec {
   /* width: 900px; */
@@ -204,7 +214,10 @@ section {
   width: 50%;
   height: 100%;
   background-image: url(./images/pic.jpg);
-  
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+  display: flex;
 }
 .tb_right {
   width: 50%;
@@ -277,15 +290,18 @@ section {
 .work_pera{
   color: white;
 }
-.work_hover{
+.work_item{
+  display: none;
+  
+}
+.tb_left:hover .work_item{
+  margin: auto;
+  display: block;
   text-align: center;
   padding: 9em 0;
-  display: block;
-  top: 32px;
-  margin: 20px;
   width: 92%;
+  height: 90%;
   background: rgba(210, 89, 80, 0.88);
-  left: 23px;
 }
 .work_hover2{
   text-align: center;
